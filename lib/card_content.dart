@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
+import 'constants.dart';
 
-const titleTextStyle = TextStyle(
-  color: Color(0xFF8C8D97),
-  fontSize: 18.0,
-);
+
 
 class CardContent extends StatelessWidget {
   CardContent({@required this.icon, @required this.title});
@@ -24,7 +22,7 @@ class CardContent extends StatelessWidget {
         ),
         Text(
           title,
-          style: titleTextStyle,
+          style: kTitleTextStyle,
         ),
       ],
     );
